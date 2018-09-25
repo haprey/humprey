@@ -77,7 +77,7 @@
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
     type: 'image',
-    tLoading: 'Loading image #%curr%...',
+    tLoading: 'Cargando imagen #%curr%...',
     mainClass: 'mfp-img-mobile',
     gallery: {
       enabled: true,
@@ -85,7 +85,7 @@
       preload: [0, 1]
     },
     image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+      tError: '<a href="%url%">Clic aqui para abrir #%curr%</a> La imagen no se cargo.'
     }
   });
 
